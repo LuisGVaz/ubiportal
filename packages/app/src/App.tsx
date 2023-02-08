@@ -82,6 +82,7 @@ const routes = (
       {entityPage}
     </Route>
     <Route path="/docs" element={<TechDocsIndexPage />} />
+      <DefaultTechDocsHome />
     <Route
       path="/docs/:namespace/:kind/:name/*"
       element={<TechDocsReaderPage />}
@@ -122,19 +123,3 @@ export default app.createRoot(
   </>,
 );
 
-const AppRoutes = () => {
-  <FlatRoutes>
-    // ... other plugin routes
-    <Route path="/docs" element={<TechDocsIndexPage />}>
-      <DefaultTechDocsHome />
-    </Route>
-    <Route
-      path="/docs/:namespace/:kind/:name/*"
-      element={<TechDocsReaderPage />}
-      >
-        <TechDocsAddons>
-           <ReportIssue />
-           </TechDocsAddons>
-      </Route>
-  </FlatRoutes>;
-};
