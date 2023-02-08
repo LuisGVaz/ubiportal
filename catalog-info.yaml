@@ -2,12 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ubiportal
-  description: An example of a Backstage application.
+  description: UbiTransport Catalog.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   # Example for optional annotations
   # annotations:
   #   github.com/project-slug: backstage/backstage
   #   backstage.io/techdocs-ref: dir:.
+  
 spec:
   type: website
-  owner: john@example.com
+  owner: ljgomez@gmail.com
   lifecycle: experimental
