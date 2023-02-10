@@ -65,6 +65,7 @@ techdocs:
   builder: 'local' # Alternatives - 'external'
   generator:
     runIn: 'docker' # Alternatives - 'local'
+    dockerImage: "mkdocs:local-dev"
   publisher:
     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
 
@@ -102,6 +103,10 @@ catalog:
       target: ../../examples/org.yaml
       rules:
         - allow: [User, Group]
+
+    # TechDocs Template
+    - type: file
+      target: ../../Templates/test-docs-template/template.yaml
 
     ## Uncomment these lines to add more example data
     # - type: url

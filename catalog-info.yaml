@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ubiportal
-  description: UbiTransport Catalog.
+  description: UbiTransport Catalog
   annotations:
     backstage.io/techdocs-ref: dir:.
   # Example for optional annotations
