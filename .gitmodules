@@ -1,0 +1,3 @@
+[submodule "software-templates"]
+	path = software-templates
+	url = https://github.com/backstage/software-templates.git
