@@ -80,20 +80,24 @@ auth:
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
+  defaultAuthor:
+    name: Ubitransport DevOps Team
+    email: l.gomezvazquez-ext@ubitransport.com
+  defaultCommitMessage: "Touch it as you need"
 
 catalog:
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
   rules:
-    - allow: [Component, API, System, Domain, Resource, Location, User, Group]
+    - allow: [Component, API, System, Domain, Resource, Location, User, Group, Template]
   locations:
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
     - type: file
       target: ../../examples/entities.yaml
 
-    - type: file
-      target: ../../softare-templates/scaffolder-templates/docs-template/template.yaml
+    #- type: file
+    #  target: ../../software-templates/scaffolder-templates/docs-template/template.yaml
 
     # Local example template
     - type: file
@@ -110,6 +114,11 @@ catalog:
     # TechDocs Template
     - type: file
       target: ../../Templates/test-docs-template/template.yaml
+
+    - type: github-org
+      target: https://github.com/ubiportal
+      rules:
+        - allow: [Group, User]
 
     ## Uncomment these lines to add more example data
     # - type: url
