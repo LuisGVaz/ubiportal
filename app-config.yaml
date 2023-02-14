@@ -37,6 +37,9 @@ backend:
       password: ${POSTGRES_PASSWORD}
   cache:
     store: memory
+  # auth:
+  #  keys:
+  #    - secret: ${AUTH_SECRETS}
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
 
 integrations:

@@ -1,9 +1,9 @@
 /*
  * Hi!
  *
- * Note that this is an EXAMPLE Backstage backend. Please check the README.
+ * Please, don't listen Reggeaton when you are coding.
  *
- * Happy hacking!
+ * Happy day!
  */
 
 import Router from 'express-promise-router';
@@ -39,6 +39,7 @@ function makeCreateEnv(config: Config) {
   const cacheManager = CacheManager.fromConfig(config);
   const databaseManager = DatabaseManager.fromConfig(config, { logger: root });
   const tokenManager = ServerTokenManager.noop();
+  // const tokenManager = ServerTokenManager.fromConfig(config, { logger: root });
   const taskScheduler = TaskScheduler.fromConfig(config);
 
   const identity = DefaultIdentityClient.create({
