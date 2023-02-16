@@ -1,0 +1,13 @@
+# What Is a Developer Portal? #
+
+A Developer Portal is a go-to place for developers when they need to learn about their ecosystem and contribute to it. Developer Portals exist to balance Developer Autonomy and Discoverability: it allows teams to keep working independently, choosing their preferred tools, and deploying daily, but exposes their work so everyone can explore and benefit from their microservices, APIs, libraries, websites, pipelines, and algorithms. A Developer Portal serves three purposes: helps developers navigate their ecosystem, empowers engineers with self-service capabilities, and provides leaders and teams with insight into the tech’s health and maturity.
+
+Discoverability in a Developer Portal is automated and centralized into a software catalog. Through various means, a Developer Portal can gather information about your organization’s services and other software components. The Developer Portal aggregates information about each component, including which team is responsible for it, documentation, availability, deployments, Snyk issues, PagerDuty incidents, and any other information that might be useful to your team.
+
+Indeed, an often sought-after feature of Developer Portals is their ability to track ownership and interdependencies across services. Each software component has a team or individual contributor who owns it and is responsible for it. Additionally, the software catalog graphs the dependencies between the components.
+
+Furthermore, Developer Portals can also take a model of your system to arrange all the software components in a meaningful taxonomy. That way, your developers can explore the ecosystem through functional categories and find useful information more easily.
+
+On the other hand, Developer Portals are not necessarily read-only. Instead of having developers open a ticket to request infrastructure to deploy a new service, DevOps teams can provide developers with templates that provision infrastructure through a single click in their Developer Portal. The benefit is double: developers are more productive because of nearly instant availability, and DevOps can nudge developers into golden paths without forcing it.
+
+Finally, given that Developers Portals aggregate information from different sources regarding most of the organization’s technological assets, there’s an ample opportunity for extracting insights. Tech insights benefit leadership because they can overview maturity levels and migration initiatives across the board and spot where extra support may be needed. Teams and developers also benefit from these insights and transparency, as they can optimize for the criteria and take pride in their progress.

@@ -1,3 +1,3 @@
-# UBITRANSPORT Docs Catalog #
+# Introuction to Developer Portals #
 
-This is the first page showing how docs works
+Allowing development teams to be autonomous is a proven approach for boosting productivity and team retention, but it has drawbacks like fragmentation and opacity. Organizations want to improve their software and infrastructure’s discoverability so that their developers’ can benefit from accessing and using the organization’s resources. Developer Portals play a central role in enabling automated discoverability and providing self-service resources that make autonomy possible at scale.

@@ -1,0 +1,13 @@
+# Developer Autonomy: A Double-Edged Sword #
+
+Cloud native organizations not only profit from scalability and flexibility in their services, but they also benefit from agile team dynamics. Given that services are deployed independently, teams can take full ownership of the software components they write. This poses a great advantage because developers who can choose their tools and enjoy their setup generally perform better, as research has pointed out for over a decade. However, developer autonomy can lead to fragmentation in an organization, which results in redundant work, orphaned projects, and opacity.
+
+Developer Autonomy is important for two reasons: faster deliveries and talent retention. As highlighted in Google’s DORA DevOps report, "no one knows better than practitioners what they need to be effective." The industry-wide report observes that teams that are given the freedom of choice and the affordances to execute their decisions have higher throughput than others.
+
+Furthermore, Microsoft’s SPACE framework of Developer Productivity talks about a psychological component to software ownership on top of choosing the right tools for the task. Developers feel empowered when they have control over their work. The team is also accountable for the quality, cost, and any other dimension of their service and will work to optimize them.
+
+Autonomy, however, does not mean anarchy. Organizations must try to provide a helpful baseline on top of which developers can build their solutions. Finding the equilibrium between restriction and freedom is not easy. A combination of policies, self-service infrastructure, and pipelines that nudge engineers into an optimal path can result in a better Development Experience that safeguards autonomy.
+
+But even with good practices in place, fragmentation is still a common problem in cloud native organizations. The larger the organization, the more complexity it’ll manage. With each team shipping their own services—which are often interconnected and rely on third-party cloud services—it can be difficult even to know which services are available and how to use them.
+
+Fragmentation poses challenges for regular contributors, new hires, and leaders. Regular contributors work in silos and have to poke around to access the organization’s resources blindly. New hires are thrown into a world of uncertainty and low visibility, making their onboarding harder and more extensive. Leaders lose sight of the software that their teams are working on and if it meets maturity and security criteria.
